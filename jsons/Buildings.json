@@ -1,0 +1,85 @@
+[
+	{//模式
+		"name": "Mode",
+		"cost": 0,
+		"uniques": ["Unbuildable",
+					"Unsellable",
+					"Cannot be purchased",
+					"Moves to new capital when capital changes",
+					"Will not be displayed in Civilopedia"]
+	},
+	{//市场
+		"name": "Market",
+		"percentStatBonus": {"gold": 10},
+		"specialistSlots": {"Merchant": 1},
+		"gold": 3,
+		"cost": 120,
+		"hurryCostModifier": 25,
+		"uniques": ["Only available <after adopting [Chowk]>"]
+	},
+	{//国家金库
+		"name": "National Treasury",
+		"isNationalWonder": true,
+		"gold": 8,
+		"cost": 280,
+		"uniques": ["Doubles Gold given to enemy if city is captured",
+
+					"Only available <if [Market] is constructed in all [non-[Puppeted]] cities> <after adopting [Guilds]>"],
+	},
+//波兰
+	{//领袖 - 雅德维加
+		"name": "Leader - Jadwiga",
+		"uniqueTo": "Poland",
+		"cost": 0,
+		"uniques": ["Leader",
+					
+					"Can be purchased for [0] [Culture] [in capital]",
+					"Unsellable",
+					"Destroyed when the city is captured",
+					"Moves to new capital when capital changes",
+					"Only available <in [in capital] cities> <in cities without a [Leader]>",
+					"Hidden when [Leader Mode] Victory is disabled"],
+		"replacementTextForUniques": " \n [Sponsorship]: \n * [Gifts of Gold to City-States generate [+20]% more Influence] \n * [[-20]% City-State Influence degradation] "
+	},
+	{//纺织会馆
+		"name": "Sukiennice",
+		"uniqueTo": "Poland",
+		"replaces": "Market",
+		"percentStatBonus": {"gold": 10},
+		"specialistSlots": {"Merchant": 1},
+		"gold": 3,
+		"cost": 120,
+		"hurryCostModifier": 25,
+		"uniques": ["Only available <after adopting [Chowk]>",
+					"[+1 Gold] from each Trade Route"]
+	},
+	
+//乌克兰
+	{//领袖 - 弗拉基米尔·泽连斯基
+		"name": "Leader - Volodymyr Zelenskyy",
+		"uniqueTo": "Ukraine",
+		"cost": 0,
+		"uniques": ["Leader",
+					
+					"Can be purchased for [0] [Culture] [in capital]",
+					"Unsellable",
+					"Destroyed when the city is captured",
+					"Moves to new capital when capital changes",
+					"Only available <in [in capital] cities> <in cities without a [Leader]>",
+					"Hidden when [Leader Mode] Victory is disabled"],
+		"replacementTextForUniques": " \n [The Actor President]: \n * [When not at war], [all cities] [+3 Happiness] \n [\"Good\" Leader]: \n * [Upon declaring war with a major Civilization], [gain [1000] [Gold] (modified by game speed)] \n * [When at war], [all cities] [-15]% [Science] [Production] [Gold] "
+	},
+	{//乌克兰国家银行
+		"name": "National Bank of Ukraine",
+		"uniqueTo": "Ukraine",
+		"replaces": "National Treasury",
+		"isNationalWonder": true,
+		"gold": 8,
+		"cost": 280,
+		"uniques": ["Doubles Gold given to enemy if city is captured",
+
+					"Only available <if [Market] is constructed in all [non-[Puppeted]] cities> <after adopting [Guilds]>",
+
+					"[+15]% [Gold] [in all cities]"],
+	},
+]

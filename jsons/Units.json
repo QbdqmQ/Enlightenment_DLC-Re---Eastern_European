@@ -1,0 +1,43 @@
+[
+//波兰
+	{
+		"name": "Winged Hussar",//翼骑兵
+		"uniqueTo": "Poland",
+		"replaces": "Lancer",
+		"unitType": "Land 'Light Rush'",
+		"upgradesTo": "Wheeled Armored",
+		"movement": 5,
+		"strength": 70,
+		"cost": 435,
+		"requiredTech": "Military Science",
+		"obsoleteTech": "Combustion",
+		"uniques": ["Costs [11] [Horses]",
+					"No defensive terrain bonus",
+					"Can move after attacking",
+					"[-25]% Strength <vs cities> <when attacking>",
+					"Ignores Zone of Control",
+					
+					"[+100]% to Flank Attack bonuses"],
+		"attackSound": "horse"
+	},
+    
+//乌克兰
+	{
+		"name": "Tu-160",//Tu-160
+		"uniqueTo": "Ukraine",
+		"replaces": "Bomber",
+		"unitType": "Air 'Bomber'",
+		"upgradesTo": "Stealth Bomber",
+		"movement": 1,
+		"range": 13,
+		"strength": 100,
+		"rangedStrength": 100,
+		"cost": 1077,
+		"requiredTech": "Flight",
+		"obsoleteTech": "Stealth",
+		"uniques": ["Costs [11] [Aluminum]",
+					
+					"[+5]% Strength"],
+		"attackSound": "bombing"
+	},
+]

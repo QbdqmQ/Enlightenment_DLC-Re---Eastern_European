@@ -26,6 +26,7 @@
 
 					"Only available <if [Market] is constructed in all [non-[Puppeted]] cities> <after adopting [Guilds]>"],
 	},
+	
 //波兰
 	{//领袖 - 雅德维加
 		"name": "Leader - Jadwiga",
@@ -67,7 +68,7 @@
 					"Moves to new capital when capital changes",
 					"Only available <in [in capital] cities> <in cities without a [Leader]>",
 					"Hidden when [Leader Mode] Victory is disabled"],
-		"replacementTextForUniques": " \n [The Actor President]: \n * [When not at war], [all cities] [+3 Happiness] \n [\"Good\" Leader]: \n * [Upon declaring war with a major Civilization], [gain [1000] [Gold] (modified by game speed)] \n * [When at war], [all cities] [-15]% [Science] [Production] [Gold] "
+		"replacementTextForUniques": " \n [The Actor President]: \n * [When not at war], [all cities] [+1 Happiness] \n [\"Good\" Leader]: \n * [Upon declaring war with a major Civilization], [gain [600] [Gold] (modified by game speed)] \n * [When at war], [all cities] [-15]% [Science] [Production] [Gold] "
 	},
 	{//乌克兰国家银行
 		"name": "National Bank of Ukraine",

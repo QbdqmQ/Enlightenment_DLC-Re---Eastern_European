@@ -1,32 +1,4 @@
-[
-	{//模式
-		"name": "Mode",
-		"cost": 0,
-		"uniques": ["Unbuildable",
-					"Unsellable",
-					"Cannot be purchased",
-					"Moves to new capital when capital changes",
-					"Will not be displayed in Civilopedia"]
-	},
-	{//市场
-		"name": "Market",
-		"percentStatBonus": {"gold": 10},
-		"specialistSlots": {"Merchant": 1},
-		"gold": 3,
-		"cost": 120,
-		"hurryCostModifier": 25,
-		"uniques": ["Only available <after adopting [Chowk]>"]
-	},
-	{//国家金库
-		"name": "National Treasury",
-		"isNationalWonder": true,
-		"gold": 8,
-		"cost": 280,
-		"uniques": ["Doubles Gold given to enemy if city is captured",
-
-					"Only available <if [Market] is constructed in all [non-[Puppeted]] cities> <after adopting [Guilds]>"],
-	},
-	
+[	
 //波兰
 	{//领袖 - 雅德维加
 		"name": "Leader - Jadwiga",

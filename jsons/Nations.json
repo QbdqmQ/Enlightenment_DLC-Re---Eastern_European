@@ -64,11 +64,11 @@
 		"uniques": ["[+1 Food] from every [Bonus resource] <after discovering [Agriculture]>",
 					"[+3 Food] [in all cities connected to capital]",
 					
-					"[+3 Happiness] [in all cities] <when not at war> <if [Leader - Volodymyr Zelenskyy] is constructed>",
-					"[+15]% [Production] [in all cities] <when at war> <if [Leader - Volodymyr Zelenskyy] is constructed>",
-					"[+15]% [Gold] [in all cities] <when at war> <if [Leader - Volodymyr Zelenskyy] is constructed>",
-					"[+15]% [Science] [in all cities] <when at war> <if [Leader - Volodymyr Zelenskyy] is constructed>",
-					"Gain [1000] [Gold] (modified by game speed) <upon declaring war with a major Civilization> <if [Leader - Volodymyr Zelenskyy] is constructed>"],
+					"[+1 Happiness] [in all cities] <when not at war> <if [Leader - Volodymyr Zelenskyy] is constructed>",
+					"Gain [600] [Gold] (modified by game speed) <upon declaring war with a major Civilization> <if [Leader - Volodymyr Zelenskyy] is constructed>",
+					"[-15]% [Production] [in all cities] <when at war> <if [Leader - Volodymyr Zelenskyy] is constructed>",
+					"[-15]% [Gold] [in all cities] <when at war> <if [Leader - Volodymyr Zelenskyy] is constructed>",
+					"[-15]% [Science] [in all cities] <when at war> <if [Leader - Volodymyr Zelenskyy] is constructed>"],
 		"uniqueText": " [Europe Breadbasket]: \n * [After discovering '[Agriculture]'], ['[Bonus resource]' [tiles] [+1 Food]] \n * [All cities connected to capital] [+3 Food] ",
 		
 		"cities":  ["Kiev","Kharkiv","Odessa","Dnipropetrovsk","Donetsk","Luhansk","Zhytomyr","Lviv","Kryvyi Rih","Chernihiv",
